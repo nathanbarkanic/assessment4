@@ -2,19 +2,27 @@
 <html>
   <head>
     <title>Back End Assessment</title>
+    <style>
+      /* Add CSS styles to highlight clickable items */
+      .clickable {
+        cursor: pointer;
+        color: pink;
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body class="container">
     <button id="complimentButton">Get a compliment</button>
-
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="main.js"></script>
-    
-  </body>
-  <body class="container">
     <button id="fortuneButton">Get a fortune</button>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <ul id="myList">
+      <li class="clickable">Item 1</li>
+      <li class="clickable">Item 2</li>
+      <li class="clickable">Item 3</li>
+    </ul>
   </body>
 </html>
